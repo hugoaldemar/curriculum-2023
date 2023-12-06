@@ -3,8 +3,8 @@ body{
     font-family:'Poppins', sans-serif;
     background-image: url(./Imagenes/fondo-2.jpg);
     background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
     align-items: center;
     }
 
@@ -191,10 +191,6 @@ li{
 }
 
 @media (max-width:1150px){
-
-    body{
-         background-size: contain;
-        background-repeat: repeat;
 
     .background-top{
         margin: 0;
