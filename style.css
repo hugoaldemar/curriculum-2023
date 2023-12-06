@@ -1,0 +1,305 @@
+
+body{
+    font-family:'Poppins', sans-serif;
+    background-image: url(./Imagenes/fondo-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    }
+
+
+.container{
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px 50px 0px;  
+    gap: 3rem;  
+}
+
+.seccion-imagen{
+   flex-basis: 20%;
+   border-radius: 50%;
+   text-align: center;
+}
+
+.seccion-texto{
+    flex-basis: 80%;
+ 
+}
+
+.titulo{
+    color: white;
+    font-size: 70px;
+    text-align:start;
+    line-height: 1em;
+}
+.subtitulo{
+    color: white;
+    font-size: 70px;
+    text-shadow: 4px 4px 20px rgba(0, 0, 0, 0.699);
+    padding: 50px;
+}
+
+
+.alineacion-elementos{
+    display: flex;
+    justify-content: center;
+}
+
+.perfil{
+    font-size: 1.2rem;
+    color: white;
+    padding: 20px 200px 20px 0px;
+}
+
+
+.imagen-perfil{
+    border-radius: 20px;
+    width: 200px;
+    filter: drop-shadow(4px 4px 40px black) ;
+    
+}
+.botones{
+    display: flex;
+    justify-content: start;
+    gap: 2rem;
+    margin-top: 10px;
+}
+.button{
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+    width: 170px;
+    align-items: center;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    border:solid 4px;
+    border-color: #2F58CD;
+}
+
+
+
+.container-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 300px;
+}
+.items{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 50px;
+    gap: 2rem;
+    
+}
+.circle{
+    background:linear-gradient(300deg, #FFFBF5, #F7EFE5, #C3ACD0);
+    animation: gradient-animation 20s ease infinite;
+    min-height: 70px;
+    max-width: 250px;
+    min-width: 80px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    }
+
+    .text-circle{
+        font-size: 15px;
+    }
+
+.education{
+    text-align: center;
+    padding: 50px;
+
+}
+
+.estudios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.institucion{ 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 350px;
+    justify-content: center;
+    align-items: center;
+}
+.logo-u{ /*esto se hizo para alinear las imagenes de las U*/
+    width: 250px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.842);
+    padding: 50px;
+    margin: 0;
+    justify-content: center;
+    border-radius: 20px;
+  
+}
+
+.titulo-3{
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 35px;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.699);
+}
+
+.experiences1{
+    display: flex;
+    justify-content: center;
+}
+
+.exp{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:100px;
+    text-align: start;
+    margin-top: 70px;
+}
+.jobs{
+    max-width: 700px;
+}
+
+.work-experience{
+   
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+.rol{
+    font-size: 50px;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.699);
+}
+li{
+    font-size: 17px;
+}
+.empresa{
+    font-size: 35px;
+}
+
+@media (max-width:1150px){
+
+    .background-top{
+        margin: 0;
+        padding: 10px;
+    }
+    .titulo{
+        text-align: center;
+        font-size: 70px;
+    }
+    .container{
+        flex-direction: column;
+        align-content: center;
+        height: auto;
+        padding: 20px 20px 20px 20px;
+        margin: 0;
+    }
+
+    .seccion-imagen{
+        flex-basis: 100%;
+    }
+    .imagen-perfil{
+        justify-content: center;
+        margin-top: 150px;
+        padding: 0;
+    }
+    .nombre{
+        text-align: center;
+    }
+    .seccion-texto{
+        text-align: justify;
+        flex-basis: 100%;
+    }
+
+    .perfil{
+        padding: 10px;
+    }
+    
+       .container-2{
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        padding: 10px;
+    }
+    .items{
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 5px;
+        gap: 1rem;
+    }
+    .text-circle{
+        font-size: 12px;
+    }
+    .logo-u{
+        height: 120px;
+    }
+    
+     .estudios{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .edu{
+        margin-bottom: 70px;
+    }
+    .soft{
+        flex-direction: column-reverse;
+    }
+    .subtitulo{
+        font-size: 60px;
+        text-align: center;
+        padding: 0;
+        line-height: 1em;
+    }
+    .exp{
+        grid-template-columns: 1fr;
+    }
+
+   
+    .button{
+        gap: 5px;
+        width: 150px;
+        align-items: center;
+        border-radius: 20px;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 600;
+        justify-content: center
+        }
+    .botones{
+        justify-content: center;
+        gap: 1rem;
+    }
+    .exp{
+        gap: 40px;
+    }
+
+    .rol{
+        font-size: 40px;
+        text-align: center;
+    }
+    .empresa{
+        text-align: center;
+        font-size: 25px;
+    }
+    li{
+        font-size: 14px;
+    }
+    
+    }
