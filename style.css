@@ -183,6 +183,8 @@ body{
     font-size: 50px;
     text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.699);
 }
+.date{
+    font-size: 30px;
 li{
     font-size: 17px;
 }
@@ -298,6 +300,9 @@ li{
         text-align: center;
         font-size: 25px;
     }
+    .date{
+        font-size: 18px;
+        text-align: center;
     li{
         font-size: 14px;
     }
